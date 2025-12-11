@@ -1,0 +1,21 @@
+
+slides:
+  # favicon: https://hogenttin.github.io/cdn/favicon/favicon.ico
+  theme: theme
+  highlight_theme: vs
+  separator: ^\s*---\s*$
+  separator_vertical: ^\s*-v-\s*$
+  separator_notes: "^Notes?:"
+  preprocess_file_script: nb2md/nb2md_file_preprocessor.py
+revealjs:
+  height: 1080
+  width: 1920
+  transition: none
+  backgroundTransition: none
+  pdfSeparateFragments: false
+plugins:
+  - name: RevealMermaid
+    extra_javascript:
+      - https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin/plugin/mermaid/mermaid.min.js
+  - extra_javascript:
+      - https://cdn.jsdelivr.net/npm/reveal-plantuml/dist/reveal-plantuml.min.js
