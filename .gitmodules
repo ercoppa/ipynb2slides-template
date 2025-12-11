@@ -1,10 +1,10 @@
 [submodule "mkslides"]
 	path = mkslides
-	url = git@github.com:ercoppa/mkslides.git
+	url = https://github.com/ercoppa/mkslides.git
 	branch = file-preprocessor
 [submodule "nb2md"]
 	path = nb2md
-	url = git@github.com:ercoppa/nb2md.git
+	url = https://github.com/ercoppa/nb2md.git
 [submodule "theme"]
 	path = theme
-	url = git@github.com:ercoppa/ipynb2slides-luiss-theme.git
+	url = https://github.com/ercoppa/ipynb2slides-luiss-theme.git
