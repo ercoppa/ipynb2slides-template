@@ -7,7 +7,7 @@ Template repository for creating presentation slides from Jupyter notebooks.
 ### 1. Clone this repository
 
 ```bash
-git clone --recursive git@github.com:ercoppa/ipynb2slides-template.git
+git clone --recursive https://github.com/ercoppa/ipynb2slides-template.git
 cd ipynb2slides-template
 ```
 
