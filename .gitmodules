@@ -1,9 +1,9 @@
 [submodule "mkslides"]
-	path = mkslides
+	path = tools/mkslides
 	url = https://github.com/ercoppa/mkslides.git
 	branch = file-preprocessor
 [submodule "nb2md"]
-	path = nb2md
+	path = tools/nb2md
 	url = https://github.com/ercoppa/nb2md.git
 [submodule "theme"]
 	path = theme

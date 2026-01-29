@@ -24,7 +24,7 @@ Create a virtual environment and install the mkslides fork:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install ./mkslides
+cd tools && pip install ./mkslides
 ```
 
 ### 3. Add your notebooks
@@ -48,17 +48,6 @@ mkslides build src
 ```
 
 The generated slides will be in the `site/` directory.
-
-## Project Structure
-
-```
-.
-├── mkslides/          # mkslides fork (submodule)
-├── nb2md/             # Notebook to Markdown converter (submodule)
-├── theme/             # Presentation theme (submodule)
-├── src/               # Your notebooks go here
-└── site/              # Generated slides (created after build)
-```
 
 ## More Information
 

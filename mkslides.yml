@@ -6,7 +6,7 @@ slides:
   separator: ^\s*---\s*$
   separator_vertical: ^\s*-v-\s*$
   separator_notes: "^Notes?:"
-  preprocess_file_script: nb2md/nb2md_file_preprocessor.py
+  preprocess_file_script: tools/nb2md/nb2md_file_preprocessor.py
 revealjs:
   height: 1080
   width: 1920
