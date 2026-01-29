@@ -55,6 +55,44 @@ mkslides build src
 
 The generated slides will be in the `site/` directory.
 
+## Updating Submodules
+
+To update the submodules with the latest upstream commits:
+
+**Update mkslides** (pulls from the `ipynb2slides` branch):
+
+```bash
+cd tools/mkslides
+git checkout ipynb2slides
+git pull origin ipynb2slides
+cd ../..
+```
+
+After updating, don't forget to reinstall mkslides if it was updated:
+
+```bash
+source .venv/bin/activate
+cd tools && pip install ./mkslides
+```
+
+**Update the theme**
+
+```bash
+cd theme
+git checkout master
+git pull origin master 
+cd ..
+```
+
+**Update the theme**
+
+```bash
+cd nb2md
+git checkout main
+git pull origin main 
+cd ..
+```
+
 ## More Information
 
 For detailed documentation, visit the main project repository: [ipynb2slides](https://github.com/ercoppa/ipynb2slides)
